@@ -1,0 +1,799 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <!-- title -->
+    <title></title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+    <meta name="author" content="#">
+    <!-- description -->
+    <meta name="description" content="">
+    <!-- keywords -->
+    <meta name="keywords" content="">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    <!-- style sheets and font icons  -->
+    <link rel="stylesheet" type="text/css" href="css/bootsnav.css">
+    <link rel="stylesheet" type="text/css" href="css/font-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="css/theme-vendors.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+
+
+    <style>
+        #bg-video {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .container p span.cursor {
+            display: inline-block;
+            background-color: #ccc;
+            margin-left: 0.1rem;
+            width: 3px;
+            animation: blink 1s infinite;
+            margin: 20px 0px;
+        }
+
+        .container p span.cursor.typing {
+            animation: none;
+        }
+
+        @keyframes blink {
+            0% {
+                background-color: #ccc;
+            }
+
+            49% {
+                background-color: #ccc;
+            }
+
+            50% {
+                background-color: transparent;
+            }
+
+            99% {
+                background-color: transparent;
+            }
+
+            100% {
+                background-color: #ccc;
+            }
+        }
+
+        .counter-feature-box-1:hover {
+            background: unset !important;
+            border: 1px solid grey;
+        }
+
+        h7 {
+            color: white;
+        }
+
+        header a.logo img {
+            max-height: 40px;
+        }
+
+        .bg-pattern {
+            width: 100%;
+            height: 100vh;
+            position: absolute;
+            background-image: url(./image/pattern.png);
+            background-repeat: repeat;
+            opacity: 0.5;
+        }
+
+        .bg-overlay {
+            width: 100%;
+            height: 100vh;
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .scroll-top-arrow,
+        .scroll-top-arrow:focus {
+            background: #20368f;
+        }
+
+        section {
+            padding: 90px 0;
+        }
+
+        .client {
+            height: 45px;
+        }
+
+        .wp_btn {
+            display: none;
+            position: fixed;
+            bottom: 60px;
+            right: 30px;
+            z-index: 100;
+            height: 60px;
+            width: 60px;
+            background-color: #25d366;
+            border-radius: 50%;
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- wp button -->
+    <div class="wp_btn" style="">
+        <a style=" " href="">
+            <?xml version="1.0" encoding="iso-8859-1"?>
+            <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 308 308"
+                style="enable-background:new 0 0 308 308; fill:white;width: 30px;" xml:space="preserve">
+                <g id="XMLID_468_">
+                    <path id="XMLID_469_" d="M227.904,176.981c-0.6-0.288-23.054-11.345-27.044-12.781c-1.629-0.585-3.374-1.156-5.23-1.156
+    				c-3.032,0-5.579,1.511-7.563,4.479c-2.243,3.334-9.033,11.271-11.131,13.642c-0.274,0.313-0.648,0.687-0.872,0.687
+    				c-0.201,0-3.676-1.431-4.728-1.888c-24.087-10.463-42.37-35.624-44.877-39.867c-0.358-0.61-0.373-0.887-0.376-0.887
+    				c0.088-0.323,0.898-1.135,1.316-1.554c1.223-1.21,2.548-2.805,3.83-4.348c0.607-0.731,1.215-1.463,1.812-2.153
+    				c1.86-2.164,2.688-3.844,3.648-5.79l0.503-1.011c2.344-4.657,0.342-8.587-0.305-9.856c-0.531-1.062-10.012-23.944-11.02-26.348
+    				c-2.424-5.801-5.627-8.502-10.078-8.502c-0.413,0,0,0-1.732,0.073c-2.109,0.089-13.594,1.601-18.672,4.802
+    				c-5.385,3.395-14.495,14.217-14.495,33.249c0,17.129,10.87,33.302,15.537,39.453c0.116,0.155,0.329,0.47,0.638,0.922
+    				c17.873,26.102,40.154,45.446,62.741,54.469c21.745,8.686,32.042,9.69,37.896,9.69c0.001,0,0.001,0,0.001,0
+    				c2.46,0,4.429-0.193,6.166-0.364l1.102-0.105c7.512-0.666,24.02-9.22,27.775-19.655c2.958-8.219,3.738-17.199,1.77-20.458
+    				C233.168,179.508,230.845,178.393,227.904,176.981z" />
+                    <path id="XMLID_470_" d="M156.734,0C73.318,0,5.454,67.354,5.454,150.143c0,26.777,7.166,52.988,20.741,75.928L0.212,302.716
+    				c-0.484,1.429-0.124,3.009,0.933,4.085C1.908,307.58,2.943,308,4,308c0.405,0,0.813-0.061,1.211-0.188l79.92-25.396
+    				c21.87,11.685,46.588,17.853,71.604,17.853C240.143,300.27,308,232.923,308,150.143C308,67.354,240.143,0,156.734,0z
+    				 M156.734,268.994c-23.539,0-46.338-6.797-65.936-19.657c-0.659-0.433-1.424-0.655-2.194-0.655c-0.407,0-0.815,0.062-1.212,0.188
+    				l-40.035,12.726l12.924-38.129c0.418-1.234,0.209-2.595-0.561-3.647c-14.924-20.392-22.813-44.485-22.813-69.677
+    				c0-65.543,53.754-118.867,119.826-118.867c66.064,0,119.812,53.324,119.812,118.867
+    				C276.546,215.678,222.799,268.994,156.734,268.994z" />
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+            </svg>
+        </a>
+    </div>
+
+    <!-- start header -->
+    <header>
+        <!-- start navigation -->
+        <nav
+            class="navbar navbar-default bootsnav navbar-fixed-top header-light background-transparent white-link navbar-expand-lg">
+            <div class="container-lg nav-header-container">
+                <!-- start logo -->
+                <div class="col-auto ps-0">
+                    <a href="index.html" title="Social-IT" class="logo"><img src="image/logo-dark.png"
+                            data-at2x="image/logo.png" class="logo-dark" alt="Social-IT"><img src="image/logo-white.png"
+                            data-at2x="image/logo-white.png" alt="Social-IT" class="logo-light default"></a>
+                </div>
+                <!-- end logo -->
+                <div class="col-auto col-lg accordion-menu pe-0">
+                    <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse"
+                        data-bs-target="#navbar-collapse-toggle-1">
+                        <span class="sr-only">toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="navbar-collapse collapse justify-content-end" id="navbar-collapse-toggle-1">
+                        <ul class="nav navbar-nav alt-font font-weight-700">
+                            <li><a href="#home" title="Home" class="inner-link">Home</a></li>
+                            <li><a href="#about" title="About" class="inner-link">About</a></li>
+                            <li><a href="#services" title="Services" class="inner-link">IT Services</a></li>
+                            <li><a href="#digital" title="Digital" class="inner-link">Digital Marketing</a></li>
+                            <!-- <li><a href="#clients" title="Clients" class="inner-link">Clients</a></li> -->
+                            <li><a href="#contact" title="Contact" class="inner-link">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- end navigation -->
+    </header>
+    <!-- end header -->
+    <!-- start hero section -->
+    <section id="home" class="p-0 parallax mobile-height wow animate__fadeIn" data-parallax-background-ratio="0.5">
+        <video playsinline autoplay muted loop id="bg-video">
+            <source src="./video.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        <div class="bg-pattern"></div>
+        <!-- <div class="bg-overlay"></div> -->
+        <div class="opacity-extra-medium bg-extra-dark-gray"></div>
+        <div class="container position-relative full-screen">
+            <div class="row h-100 align-items-center">
+                <div style="color: white;" class="col-12 text-center">
+                    <!-- <h6>Social it</h6> -->
+                    <h6>Taking Technology To Next Level</h6>
+                    <h3>Innovative <span class="typed-text"></span><span class="cursor">&nbsp;</span>for your business
+                    </h3>
+
+                    <!-- <img src="images/text.png" alt="" /> -->
+                    <div class="down-section text-center"><a href="#about" class="inner-link"><i
+                                class="ti-arrow-down icon-extra-small text-white-2 bg-deep-pink padding-15px-all sm-padding-10px-all rounded-circle"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end hero section -->
+
+    <!-- About Us -->
+
+    <section id="about" class="wow animate__fadeIn" style="visibility: visible; animation-name: fadeIn;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-5 col-md-6 text-center md-margin-30px-bottom wow animate__fadeInLeft"
+                    style="visibility: visible; animation-name: fadeInLeft;">
+                    <img src="image/about-min.jpeg" alt="" class="border-radius-6 w-100" data-no-retina="">
+                </div>
+                <div class="col-12 col-lg-7 col-md-6 text-center text-md-start padding-eight-lr lg-padding-six-lr md-padding-15px-lr wow animate__fadeInRight"
+                    data-wow-delay="0.2s"
+                    style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInRight;">
+                    <span class="text-deep-pink alt-font margin-10px-bottom d-inline-block text-medium">About Us</span>
+                    <h6 class="alt-font text-extra-dark-gray">We have always been dedicated to offering businesses the
+                        best solutions.</h6>
+                    <p>Our team has been working to create cutting-edge and comprehensive solutions in Information
+                        Technology and Digital
+                        Marketing that are tailored based on different market needs. We collaborated with the top
+                        technology providers and made
+                        high-end training investments in order to uphold this promise.</p>
+                    <a href="#services"
+                        class="inner-link btn btn-dark-gray btn-small text-extra-small btn-rounded margin-5px-top"><i
+                            class="fas fa-play-circle icon-very-small margin-5px-right no-margin-left"
+                            aria-hidden="true"></i> Our Services</a>
+                </div>
+            </div>
+            <!-- <div class="divider-full bg-extra-light-gray margin-seven-bottom margin-eight-top"></div> -->
+        </div>
+    </section>
+
+    <!-- end about us -->
+
+
+    <!-- start parallax section -->
+    <section class="parallax wow animate__fadeIn" data-parallax-background-ratio="0.3"
+        style="background-image:url('./image/sep1.webp'); padding: 80px 0px;">
+        <div class="opacity-extra-medium bg-black"></div>
+        <div class="container position-relative">
+            <div class="row justify-content-center">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3">
+                    <!-- start counter item-->
+                    <div class="col text-center md-margin-30px-bottom xs-margin-15px-bottom wow animate__fadeInUp"
+                        style="visibility: visible; animation-name: fadeInUp;">
+                        <div class="counter-feature-box-1 w-100 padding-5px-all">
+                            <div class="counter-box d-flex justify-content-evenly flex-column h-100">
+                                <i class="icon-happy icon-large text-white margin-15px-bottom"></i>
+                                <h6 class="d-block font-weight-600 text-white alt-font mb-0 counter appear"
+                                    data-to="300" data-speed="1000">300+</h6>
+                                <h6 style="color: white;">Happy Clients</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end counter item-->
+                    <!-- start counter item-->
+                    <div class="col text-center md-margin-30px-bottom xs-margin-15px-bottom wow animate__fadeInUp"
+                        data-wow-delay="0.2s"
+                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                        <div class="counter-feature-box-1 w-100 padding-5px-all">
+                            <div class="counter-box d-flex justify-content-evenly flex-column h-100">
+                                <i class="icon-laptop icon-large text-white margin-15px-bottom"></i>
+                                <h6 class="d-block font-weight-600 text-white alt-font mb-0 counter appear"
+                                    data-to="100" data-speed="2000">100+</h6>
+                                <h6 style="color: white;">Project Completed</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end counter item-->
+                    <!-- start counter item-->
+                    <div class="col text-center xs-margin-15px-bottom wow animate__fadeInUp" data-wow-delay="0.4s"
+                        style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                        <div class="counter-feature-box-1 w-100 padding-5px-all">
+                            <div class="counter-box d-flex justify-content-evenly flex-column h-100">
+                                <i class="icon-strategy icon-large text-white margin-15px-bottom"></i>
+                                <h6 class="d-block font-weight-600 text-white alt-font mb-0 counter appear" data-to="15"
+                                    data-speed="2000">15+</h6>
+                                <h6 style="color: white;">Years Of Experience</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end counter item-->
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end parallax section -->
+
+
+
+
+
+
+    <!-- start services section -->
+    <section id="services" class="bg-light-gray wow animate__fadeIn">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div
+                    class="col-12 col-lg-6 col-md-8 col-sm-10 margin-five-bottom md-margin-40px-bottom sm-margin-30px-bottom text-center last-paragraph-no-margin">
+                    <h5 class="alt-font font-weight-700 text-extra-dark-gray text-uppercase margin-15px-bottom">Our IT
+                        Services</h5>
+                    <p class="mb-0">Our IT Services offer comprehensive solutions tailored to the modern business
+                        environment. We utilize top systems to plan, integrate, deploy, and maintain IT
+                        solutions. Our professional
+                        team excels in infrastructure design, implementation, and support. We also provide cloud hosting
+                        services for email and
+                        data. Security is a
+                        priority, and we
+                        implement and maintain industry-standard security solutions.</p>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-4 row-cols-sm-2">
+                <!-- start services item -->
+                <div class="col wow animate__fadeInUp last-paragraph-no-margin" data-wow-delay="0.6s">
+                    <div
+                        class="bg-white box-shadow-light text-center h-100 padding-eighteen-tb feature-box-8 position-relative z-index-5">
+                        <div class="d-inline-block margin-20px-bottom"><i
+                                class="icon-shield text-white-2 icon-round-small bg-deep-pink"></i></div>
+                        <div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom">Security
+                        </div>
+                        <p class="w-85 lg-w-90 mx-auto">Because enterprises are more exposed to targeted assaults, the
+                            evolution of cloud, mobile, ad IoT technologies has
+                            reshaped network security. Our solutions provide a holistic view of authorized and
+                            unauthorized behaviors, applications,
+                            and responses. We implement and maintain security solutions in accordance with the standards
+                            set out by our worldwide
+                            partners(Cisco, Fortinet, Microsoft and many more).</p>
+                        <div class="feature-box-overlay bg-deep-pink"></div>
+                    </div>
+                </div>
+                <!-- end services item -->
+                <!-- start services item -->
+                <div
+                    class="col md-margin-30px-bottom xs-margin-15px-bottom wow animate__fadeInUp last-paragraph-no-margin">
+                    <div
+                        class="bg-white box-shadow-light text-center h-100 padding-eighteen-tb feature-box-8 position-relative z-index-5">
+                        <div class="d-inline-block margin-20px-bottom"><i
+                                class="icon-desktop text-white-2 icon-round-small bg-deep-pink"></i></div>
+                        <div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom">Systems
+                        </div>
+                        <p class="w-85 lg-w-90 mx-auto">With excellent systems like Intel, Dell, HPE, Veeam, VMware, and
+                            Microsoft, we plan, configure, integrate, and deploy a
+                            wide range of IT system solutions for the modern business environment. Additionally, we
+                            maintain, support, and upgrade
+                            current IT systems and applications.</p>
+                        <div class="feature-box-overlay bg-deep-pink"></div>
+                    </div>
+                </div>
+                <!-- end services item -->
+
+                <!-- start services item -->
+                <div class="col xs-margin-15px-bottom wow animate__fadeInUp last-paragraph-no-margin"
+                    data-wow-delay="0.4s">
+                    <div
+                        class="bg-white box-shadow-light text-center h-100 padding-eighteen-tb feature-box-8 position-relative z-index-5">
+                        <div class="d-inline-block margin-20px-bottom"><i
+                                class="icon-cloud text-white-2 icon-round-small bg-deep-pink"></i></div>
+                        <div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom">Cloud
+                        </div>
+                        <p class="w-85 lg-w-90 mx-auto">Whether it’s your company emails or data, we can assist you on
+                            hosting it on the cloud with our cloud solution
+                            that supports more than 20 platforms, including Office 365 and Google G Suite. In addition
+                            to, hosting your servers and
+                            applications on AWS, Azure or Digital Ocean as well.</p>
+                        <div class="feature-box-overlay bg-deep-pink"></div>
+                    </div>
+                </div>
+                <!-- end services item -->
+
+                <!-- start services item -->
+                <div class="col md-margin-30px-bottom xs-margin-15px-bottom wow animate__fadeInUp last-paragraph-no-margin"
+                    data-wow-delay="0.2s">
+                    <div
+                        class="bg-white box-shadow-light text-center h-100 padding-eighteen-tb feature-box-8 position-relative z-index-5">
+                        <div class="d-inline-block margin-20px-bottom"><i
+                                class="icon-laptop text-white-2 icon-round-small bg-deep-pink"></i></div>
+                        <div class="alt-font text-extra-dark-gray font-weight-600 margin-10px-bottom">Infrastructure
+                        </div>
+                        <p class="w-85 lg-w-90 mx-auto">All IT infrastructure architectures, including client/server
+                            environments are designed, implemented, and supported by
+                            our team of professionals.</p>
+                        <div class="feature-box-overlay bg-deep-pink"></div>
+                    </div>
+                </div>
+                <!-- end services item -->
+            </div>
+        </div>
+    </section>
+    <!-- end services section -->
+
+    <!-- start parallax section -->
+    <section class="parallax wow animate__fadeIn" data-parallax-background-ratio="0.3"
+        style="background-image:url('./image/sep2.webp'); padding: 80px 0px;">
+
+        <div class="row justify-content-center" style="position: relative;z-index: 100;">
+            <div
+                class="col-12 col-lg-6 col-md-8 col-sm-10 margin-five-bottom md-margin-40px-bottom sm-margin-30px-bottom text-center last-paragraph-no-margin">
+                <h5 class="alt-font font-weight-700 text-white-2 text-uppercase margin-15px-bottom">Our Clients</h5>
+                <div class="text-light-gray alt-font text-small text-uppercase margin-5px-bottom">Discover Our Portfolio
+                </div>
+            </div>
+        </div>
+        <div class="opacity-extra-medium bg-black"></div>
+        <div class="container text-center">
+            <div class="row">
+                <div class="swiper-container white-move"
+                    data-slider-options='{ "slidesPerView":"1", "loop":true, "autoplay":{"delay":3000 }, "stopOnLastSlide":true, "disableOnInteraction":false, "keyboard":true, "mousewheel":false, "navigation": { "nextEl": ".swiper-button-next", "prevEl": ".swiper-button-prev" }, "pagination": { "el": ".swiper-pagination", "clickable": true }, "breakpoints":{ "768":{ "slidesPerView":"3" },"992":{ "slidesPerView":"3" }, "1200":{ "slidesPerView":"4" } } }'>
+                    <div class="swiper-wrapper">
+                        <!-- start slider item -->
+                        <div class="swiper-slide text-center"><img class="client" src="./image/client.png" alt=""></div>
+                        <!-- end slider item -->
+                        <!-- start slider item -->
+                        <div class="swiper-slide text-center"><img class="client" src="./image/client.png" alt=""></div>
+                        <!-- end slider item -->
+                        <!-- start slider item -->
+                        <div class="swiper-slide text-center"><img class="client" src="./image/client.png" alt=""></div>
+                        <!-- end slider item -
+                        <!-- start slider item -->
+                        <div class="swiper-slide text-center"><img class="client" src="./image/client.png" alt=""></div>
+                        <!-- end slider item -->
+                        <!-- start slider item -->
+                        <div class="swiper-slide text-center"><img class="client" src="./image/client.png" alt=""></div>
+                        <!-- end slider item -->
+                    </div>
+                    <!-- start swiper pagination -->
+                    <!-- <div class="swiper-pagination swiper-pagination-white"></div> -->
+                    <!-- end swiper pagination -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end parallax section -->
+
+
+    <section id="digital" class=" wow animate__fadeIn" style="visibility: visible; animation-name: fadeIn;">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div
+                    class="col-12 col-lg-6 col-md-8 col-sm-10 margin-five-bottom md-margin-40px-bottom sm-margin-30px-bottom text-center last-paragraph-no-margin">
+                    <h5 class="alt-font font-weight-700 text-extra-dark-gray text-uppercase margin-15px-bottom">Digital
+                        Marketing</h5>
+                    <p class="mb-0">Our Branding services help create a compelling brand story and cohesive identity. We
+                        excel in Social Media Management,
+                        emphasizing the importance of a strong social media presence. Our Content Creation services
+                        include photoshoots, video
+                        production, animated banners, social posts, and SEO copywriting. With Mobile and Web
+                        Development, we prioritize user
+                        experience for exceptional website and app development.</p>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-4 row-cols-sm-2">
+                <!-- start features box item -->
+                <div class="col d-flex text-center border-right border-color-extra-light-gray xs-no-border-right wow animate__fadeInUp last-paragraph-no-margin"
+                    style="visibility: visible; animation-name: fadeInUp;">
+                    <div class="padding-ten-all sm-padding-five-lr sm-padding-ten-tb">
+                        <i class="icon-lightbulb icon-large text-deep-pink"></i>
+                        <span
+                            class="d-block alt-font font-weight-600 text-extra-dark-gray margin-25px-top margin-10px-bottom">Branding</span>
+                        <p>Building an emotional connection with clients requires developing a compelling brand story
+                            that details how your company
+                            came into being and what still motivates your goal. Our team is there to assist in setting
+                            the rulebook of your designs
+                            and the general look-and-feel of your brand, from logo and color selections to photography
+                            and visuals creation.</p>
+                    </div>
+                </div>
+                <!-- end features box item -->
+                <!-- start features box item -->
+                <div class="col d-flex text-center border-right border-color-extra-light-gray md-no-border-right wow animate__fadeInUp last-paragraph-no-margin"
+                    data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                    <div class="padding-ten-all sm-padding-five-lr sm-padding-ten-tb">
+                        <i class="icon-presentation icon-large text-deep-pink"></i>
+                        <span
+                            class="d-block alt-font font-weight-600 text-extra-dark-gray margin-25px-top margin-10px-bottom">Social
+                            Media Management</span>
+                        <p>Nowadays, social media presence plays a significant role in how we present ourselves online.
+                            A brand is deemed more likely to succeed if it is not only present on social media, but also
+                            a leader in this space. Our
+                            skilled social media managers will be providing first-class social management services to
+                            take your brand to another
+                            level.</p>
+                    </div>
+                </div>
+                <!-- end features box item -->
+                <!-- start features box item -->
+                <div class="col d-flex text-center border-right border-color-extra-light-gray xs-no-border-right wow animate__fadeInUp last-paragraph-no-margin"
+                    data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                    <div class="padding-ten-all sm-padding-five-lr sm-padding-ten-tb">
+                        <i class="icon-target icon-large text-deep-pink"></i>
+                        <span
+                            class="d-block alt-font font-weight-600 text-extra-dark-gray margin-25px-top margin-10px-bottom">Content
+                            Creation</span>
+                        <p>Our Content Creation services encompass a wide range of offerings, including photoshoots,
+                            video production, animated
+                            banners, social posts, and SEO copywriting. Whether you need visually stunning images,
+                            captivating videos, dynamic
+                            animated banners, engaging social media posts, or optimized SEO content, we have the
+                            expertise to deliver impactful
+                            results for your brand.</p>
+                    </div>
+                </div>
+                <!-- end features box item -->
+                <!-- start features box item -->
+                <div class="col d-flex text-center border-color-extra-light-gray wow animate__fadeInUp last-paragraph-no-margin"
+                    data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+                    <div class="padding-ten-all sm-padding-five-lr sm-padding-ten-tb">
+                        <i class="icon-mobile icon-large text-deep-pink"></i>
+                        <span
+                            class="d-block alt-font font-weight-600 text-extra-dark-gray margin-25px-top margin-10px-bottom">Mobile
+                            and Web Development</span>
+                        <p>We take User Experience on your buisiness’s website and mobile app very seriously. Google
+                            favors websites that offer excellent user experiences, so to accomplish this with the help
+                            of our top-notch front-end
+                            and back-end developers, you can watch your brand grow bigger and better!</p>
+                    </div>
+                </div>
+                <!-- end features box item -->
+            </div>
+        </div>
+    </section>
+
+    <!-- start accordion section -->
+    <section style="display: none;" class="bg-light-gray border-none p-0 wow animate__fadeIn">
+        <div class="container-fluid">
+            <div class="row row-cols-1 row-cols-lg-2">
+                <div
+                    class="col padding-seven-lr padding-six-half-tb lg-padding-five-tb lg-padding-six-lr md-padding-six-all sm-padding-50px-tb sm-padding-15px-lr wow animate__fadeInLeft">
+                    <h5
+                        class="alt-font text-extra-dark-gray text-center text-lg-start margin-eight-bottom md-margin-40px-bottom sm-margin-30px-bottom font-weight-600">
+                        <span class="font-weight-300 d-block sm-margin-15px-bottom">We're small but impressive.</span>
+                        Hand crafted pixel perfect designs.
+                    </h5>
+                    <!-- start accordion -->
+                    <div class="panel-group accordion-event accordion-style2" id="accordion-main"
+                        data-active-icon="fa-angle-up" data-inactive-icon="fa-angle-down">
+                        <!-- start tab content -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <a class="accordion-toggle" data-bs-toggle="collapse" data-bs-parent="#accordion-main"
+                                    href="#collapseOne">
+                                    <div class="panel-title">
+                                        <span class="alt-font font-weight-600 text-deep-pink tab-tag">01</span>
+                                        <span class="text-extra-dark-gray sm-w-80 d-inline-block">Unique and bold
+                                            website design</span>
+                                        <i class="fas fa-angle-up text-extra-dark-gray"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse show" data-bs-parent="#accordion-main">
+                                <div class="panel-body">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                                    1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                                    specimen book.</div>
+                            </div>
+                        </div>
+                        <!-- end tab content -->
+                        <!-- start tab content -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <a class="accordion-toggle" data-bs-toggle="collapse" data-bs-parent="#accordion-main"
+                                    href="#collapseTwo">
+                                    <div class="panel-title">
+                                        <span class="alt-font font-weight-600 text-deep-pink tab-tag">02</span>
+                                        <span class="text-extra-dark-gray sm-w-80 d-inline-block">We're ready to start
+                                            now</span>
+                                        <i class="fas fa-angle-down text-extra-dark-gray"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse" data-bs-parent="#accordion-main">
+                                <div class="panel-body">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                                    1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                                    specimen book.</div>
+                            </div>
+                        </div>
+                        <!-- end tab content -->
+                        <!-- start tab content -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <a class="accordion-toggle" data-bs-toggle="collapse" data-bs-parent="#accordion-main"
+                                    href="#collapseThree">
+                                    <div class="panel-title">
+                                        <span class="alt-font font-weight-600 text-deep-pink tab-tag">03</span>
+                                        <span class="text-extra-dark-gray sm-w-80 d-inline-block">We Deliver the highest
+                                            quality</span>
+                                        <i class="fas fa-angle-down text-extra-dark-gray"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse" data-bs-parent="#accordion-main">
+                                <div class="panel-body">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                                    1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                                    specimen book.</div>
+                            </div>
+                        </div>
+                        <!-- end tab content -->
+                    </div>
+                    <!-- end accordion -->
+                </div>
+                <div class="col cover-background md-h-500px sm-h-350px wow animate__fadeInRight"
+                    style="background:url('images/homepage-9-parallax-img3.jpg')"></div>
+            </div>
+        </div>
+    </section>
+    <!-- end accordion section -->
+
+
+    <!-- start contact section -->
+    <section id="contact" class="wow animate__fadeIn p-0 bg-extra-dark-gray">
+        <div class="container-fluid">
+            <div class="row row-cols-1 row-cols-lg-2">
+                <div style="padding-left: 0px;padding-right: 0px;"
+                    class="col cover-background md-h-550px sm-h-350px wow animate__fadeIn"><iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3311.3904296128553!2d35.57564437468695!3d33.90534972547425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f3e0821fc619f%3A0x7abc147b0884051!2sJal%20El%20Dib%20Main%20Rd!5e0!3m2!1sen!2slb!4v1684444290260!5m2!1sen!2slb"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                <div
+                    class="col padding-five-tb padding-six-lr md-padding-eleven-all text-center sm-padding-15px-lr wow animate__fadeIn">
+                    <div class="text-medium-gray alt-font text-small text-uppercase margin-5px-bottom">Complete the
+                        form, and we will reach out to you shortly!</div>
+                    <h5
+                        class="margin-55px-bottom text-white-2 alt-font font-weight-600 text-uppercase md-margin-30px-bottom sm-margin-15px-bottom">
+                        Contact Us</h5>
+                    <div>
+                        <form id="contact-form-2" action="./contact.php" method="post">
+                            <div class="row justify-content-center">
+                                <div class="col-12 wow animate__fadeIn text-center">
+                                    <div class="form-results d-none"></div>
+                                    <input type="text" name="name" id="name" placeholder="Name*"
+                                        class="input-border-bottom required">
+                                    <input type="email" name="email" id="email" placeholder="E-mail*"
+                                        class="input-border-bottom required">
+                                    <input type="tel" id="subject" name="subject" placeholder="Subject"
+                                        class="input-border-bottom">
+                                    <textarea name="message" id="comment" placeholder="Your Message"
+                                        class="input-border-bottom"></textarea>
+                                    <button id="contact-us-button-2" type="submit"
+                                        class="btn btn-small btn-deep-pink margin-30px-top sm-margin-three-top submit">send
+                                        message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end contact section -->
+
+    <!-- start footer -->
+    <footer class="footer-strip bg-light-gray padding-50px-tb sm-padding-30px-tb">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- start logo -->
+                <div class="col-md-3 text-center text-lg-start sm-margin-20px-bottom">
+                    <a href="index.html"><img class="footer-logo" src="image/logo-dark.png"
+                            data-at2x="images/logo@2x.png" alt="Social-IT"></a>
+                </div>
+                <!-- end logo -->
+                <!-- start copyright -->
+                <div class="col-md-6 text-center text-small alt-font sm-margin-10px-bottom">
+                    &copy; 2023 Social-IT All Rights Reserved
+                </div>
+                <!-- end copyright -->
+                <!-- start social media -->
+                <div class="col-md-3 text-center text-lg-end">
+                    <div class="social-icon-style-8 d-inline-block align-middle">
+                        <ul class="small-icon mb-0">
+                            <li><a class="facebook text-black" href="https://www.facebook.com/" target="_blank"><i
+                                        class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                            <li><a class="instagram text-black" href="https://instagram.com/" target="_blank"><i
+                                        class="fab fa-instagram"></i></a></li>
+                            <li><a class="linkedin text-black" href="https://linkedin.com/" target="_blank"><i
+                                        class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- end social media -->
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <!-- start scroll to top -->
+    <a class="scroll-top-arrow" href="javascript:void(0);"><i class="ti-arrow-up"></i></a>
+    <!-- end scroll to top  -->
+    <!-- javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootsnav.js"></script>
+    <script type="text/javascript" src="js/jquery.nav.js"></script>
+    <script type="text/javascript" src="js/hamburger-menu.js"></script>
+    <script type="text/javascript" src="js/theme-vendors.min.js"></script>
+    <!-- setting -->
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <script>
+        const typedTextSpan = document.querySelector(".typed-text");
+        const cursorSpan = document.querySelector(".cursor");
+
+        const textArray = ["IT solutions", "branding strategies", "cloud solutions", "content creation"];
+        const typingDelay = 200;
+        const erasingDelay = 100;
+        const newTextDelay = 500; // Delay between current and next text
+        let textArrayIndex = 0;
+        let charIndex = 0;
+
+        function type() {
+            if (charIndex < textArray[textArrayIndex].length) {
+                if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+                typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+                charIndex++;
+                setTimeout(type, typingDelay);
+            }
+            else {
+                cursorSpan.classList.remove("typing");
+                setTimeout(erase, newTextDelay);
+            }
+        }
+
+        function erase() {
+            if (charIndex > 0) {
+                if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+                typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex - 1);
+                charIndex--;
+                setTimeout(erase, erasingDelay);
+            }
+            else {
+                cursorSpan.classList.remove("typing");
+                textArrayIndex++;
+                if (textArrayIndex >= textArray.length) textArrayIndex = 0;
+                setTimeout(type, typingDelay + 600);
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", function () { // On DOM Load initiate the effect
+            if (textArray.length) setTimeout(type, newTextDelay + 100);
+        });
+
+    </script>
+
+</body>
+
+</html>
